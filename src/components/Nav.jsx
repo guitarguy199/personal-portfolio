@@ -1,14 +1,15 @@
+import './Nav.css';
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const Nav = () => {
 
     return (
         <header>
-            <nav>
-                <Link to={"/"}>
+            <nav className="grid container navbar">
+                <Link className="navbar-logo" to={"/"}>
                     <h3>AO</h3>
                 </Link>
-                <ul>
+                <ul className="navbar-links">
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/about">About</CustomLink>
                     <CustomLink to="/skills">Skills</CustomLink>
