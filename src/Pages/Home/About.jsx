@@ -1,4 +1,5 @@
 import './About.css';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
 
